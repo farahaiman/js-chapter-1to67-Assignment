@@ -574,35 +574,21 @@
 //  var area = Math.sqrt(s*((s-a)*(s-b)*(s-c)));
 //  console.log(area);
 
-                   //Q4  sum=eval(a)+eval(b)+eval(c);
-     var a =prompt("enter 1 subject marks");
-     var b =prompt("enter 2 subject marks");
-     var c =prompt("enter 3 subject marks");
-     
-      console.log(percentage(a,b,c)) 
-      
-      
-     function percentage(x,y,z){
-       var per = average()
-        if(per>=75 && per <=80){
-            document.write("A grade");
-        }
-        else if(per>=60 && per <=70){
-            document.write("B grade");
-        }
-        else if(per>=45 && per <=55){
-            document.write("C grade");
-        }
-        else if(per>=30 && per <=40){
-            document.write("C grade");
-        }
-        else{
-            document.write("fail");
-        }
+                   //Q4  
+//Function abc(a,b,c) {
+//Var sum = a+ b+ c ;
+//Return sum /3;
+//}
+//Function percentage (a,b,c){
+//Var percentage = abc(a,b,c)/3;
+//Return percentage;
+//}
+//Function result ( a,b,c) {
+//Console.log( "average = " + abc(a,b,c));
+//Console.log("percentage=" + abc(a,b,c));
+//}
+//Result(100,100,100);
+            //Q5b
+   
          
-     }             
-      function average(e,f,g){
-        avrg=(e,f,g)/3
-        return avrg
-         
-      }
+    
